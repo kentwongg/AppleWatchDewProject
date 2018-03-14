@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF46296F1FDFA9C400C2EA6A /* YesNoNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF46296E1FDFA9C400C2EA6A /* YesNoNotificationController.swift */; };
+		FF51E1011FCA57B000A2F7B2 /* dew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FF51E1001FCA57B000A2F7B2 /* dew.mp3 */; };
+		FF705F591FAC0BB100EA149E /* ConfirmationLabelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF705F581FAC0BB100EA149E /* ConfirmationLabelClass.swift */; };
+		FF8F2D3D1FAB9CFF003037D6 /* TableRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8F2D3C1FAB9CFF003037D6 /* TableRowController.swift */; };
+		FF8F2D3F1FABD275003037D6 /* CheckinInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8F2D3E1FABD275003037D6 /* CheckinInterfaceController.swift */; };
+		FF8F2D411FABD28C003037D6 /* ComfirmationInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8F2D401FABD28C003037D6 /* ComfirmationInterfaceController.swift */; };
+		FF8F2D421FABD4F9003037D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBBF5CC1FA99179004C8EE6 /* Assets.xcassets */; };
+		FFBBF5B61FA99179004C8EE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBBF5B51FA99179004C8EE6 /* AppDelegate.swift */; };
+		FFBBF5B81FA99179004C8EE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBBF5B71FA99179004C8EE6 /* ViewController.swift */; };
+		FFBBF5BB1FA99179004C8EE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBBF5B91FA99179004C8EE6 /* Main.storyboard */; };
+		FFBBF5C01FA99179004C8EE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBBF5BE1FA99179004C8EE6 /* LaunchScreen.storyboard */; };
+		FFBBF5C51FA99179004C8EE6 /* dewWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FFBBF5C41FA99179004C8EE6 /* dewWatch WatchKit App.app */; };
+		FFBBF5CB1FA99179004C8EE6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFBBF5C91FA99179004C8EE6 /* Interface.storyboard */; };
+		FFBBF5CD1FA99179004C8EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBBF5CC1FA99179004C8EE6 /* Assets.xcassets */; };
+		FFBBF5D41FA99179004C8EE6 /* dewWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FFBBF5D31FA99179004C8EE6 /* dewWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FFBBF5D91FA99179004C8EE6 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBBF5D81FA99179004C8EE6 /* InterfaceController.swift */; };
+		FFBBF5DB1FA99179004C8EE6 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBBF5DA1FA99179004C8EE6 /* ExtensionDelegate.swift */; };
+		FFBBF5DD1FA99179004C8EE6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFBBF5DC1FA99179004C8EE6 /* NotificationController.swift */; };
+		FFBBF5DF1FA99179004C8EE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFBBF5DE1FA99179004C8EE6 /* Assets.xcassets */; };
+		FFD3A5781FBCF94600A3D0D4 /* DriveNotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD3A5771FBCF94600A3D0D4 /* DriveNotificationController.swift */; };
+		FFD41F0F1FD0BD0100B7B380 /* dew.wav in Resources */ = {isa = PBXBuildFile; fileRef = FFD41F0D1FD0BD0100B7B380 /* dew.wav */; };
+		FFD41F101FD0BD0100B7B380 /* dew.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FFD41F0E1FD0BD0100B7B380 /* dew.aiff */; };
+		FFEE3B081FE0E2A700E9F9CF /* TestInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFEE3B071FE0E2A700E9F9CF /* TestInterfaceController.swift */; };
+		FFEE3B0B1FE0EEE200E9F9CF /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFEE3B0A1FE0EEE200E9F9CF /* UserNotifications.framework */; };
+		FFEE3B0F1FE0FD2400E9F9CF /* dew.aiff in Resources */ = {isa = PBXBuildFile; fileRef = FFEE3B0E1FE0FD2400E9F9CF /* dew.aiff */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFBBF5C61FA99179004C8EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBBF5AA1FA99179004C8EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBBF5C31FA99179004C8EE6;
+			remoteInfo = "dewWatch WatchKit App";
+		};
+		FFBBF5D51FA99179004C8EE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFBBF5AA1FA99179004C8EE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFBBF5D21FA99179004C8EE6;
+			remoteInfo = "dewWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFBBF5E71FA99179004C8EE6 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FFBBF5D41FA99179004C8EE6 /* dewWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBBF5EB1FA99179004C8EE6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FFBBF5C51FA99179004C8EE6 /* dewWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3983C71C1FE35945007AD4B9 /* dewWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dewWatch.entitlements; sourceTree = "<group>"; };
+		FF46296E1FDFA9C400C2EA6A /* YesNoNotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YesNoNotificationController.swift; sourceTree = "<group>"; };
+		FF51E1001FCA57B000A2F7B2 /* dew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dew.mp3; sourceTree = "<group>"; };
+		FF705F581FAC0BB100EA149E /* ConfirmationLabelClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationLabelClass.swift; sourceTree = "<group>"; };
+		FF8F2D3C1FAB9CFF003037D6 /* TableRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableRowController.swift; sourceTree = "<group>"; };
+		FF8F2D3E1FABD275003037D6 /* CheckinInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckinInterfaceController.swift; sourceTree = "<group>"; };
+		FF8F2D401FABD28C003037D6 /* ComfirmationInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComfirmationInterfaceController.swift; sourceTree = "<group>"; };
+		FFBBF5B21FA99179004C8EE6 /* dewWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dewWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBBF5B51FA99179004C8EE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFBBF5B71FA99179004C8EE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FFBBF5BA1FA99179004C8EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFBBF5BF1FA99179004C8EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFBBF5C11FA99179004C8EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBBF5C41FA99179004C8EE6 /* dewWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dewWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBBF5CA1FA99179004C8EE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		FFBBF5CC1FA99179004C8EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "dewWatch WatchKit App/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+		FFBBF5CE1FA99179004C8EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBBF5D31FA99179004C8EE6 /* dewWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "dewWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFBBF5D81FA99179004C8EE6 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		FFBBF5DA1FA99179004C8EE6 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		FFBBF5DC1FA99179004C8EE6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		FFBBF5DE1FA99179004C8EE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFBBF5E01FA99179004C8EE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFBBF5E11FA99179004C8EE6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		FFD3A5711FBCF33900A3D0D4 /* YesNotification.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = YesNotification.apns; sourceTree = "<group>"; };
+		FFD3A5751FBCF3A500A3D0D4 /* AchivementNotification.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = AchivementNotification.apns; sourceTree = "<group>"; };
+		FFD3A5761FBCF40900A3D0D4 /* DriveNotification.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = DriveNotification.apns; sourceTree = "<group>"; };
+		FFD3A5771FBCF94600A3D0D4 /* DriveNotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriveNotificationController.swift; sourceTree = "<group>"; };
+		FFD41F0D1FD0BD0100B7B380 /* dew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dew.wav; sourceTree = "<group>"; };
+		FFD41F0E1FD0BD0100B7B380 /* dew.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = dew.aiff; sourceTree = "<group>"; };
+		FFEE3B071FE0E2A700E9F9CF /* TestInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestInterfaceController.swift; sourceTree = "<group>"; };
+		FFEE3B0A1FE0EEE200E9F9CF /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		FFEE3B0E1FE0FD2400E9F9CF /* dew.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = dew.aiff; path = Assets.xcassets/dew.dataset/dew.aiff; sourceTree = "<group>"; };
+		FFEE3B101FE0FE9200E9F9CF /* dew.caf */ = {isa = PBXFileReference; lastKnownFileType = file; name = dew.caf; path = "../dewWatch WatchKit Extension/dew.caf"; sourceTree = "<group>"; };
+		FFEE3B111FE0FE9900E9F9CF /* dew.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = dew.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFBBF5AF1FA99179004C8EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFEE3B0B1FE0EEE200E9F9CF /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBBF5D01FA99179004C8EE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FFBBF5A91FA99179004C8EE6 = {
+			isa = PBXGroup;
+			children = (
+				FFBBF5B41FA99179004C8EE6 /* dewWatch */,
+				FFBBF5C81FA99179004C8EE6 /* dewWatch WatchKit App */,
+				FFBBF5D71FA99179004C8EE6 /* dewWatch WatchKit Extension */,
+				FFBBF5B31FA99179004C8EE6 /* Products */,
+				FFEE3B091FE0EEE200E9F9CF /* Frameworks */,
+			);
+			indentWidth = 4;
+			sourceTree = "<group>";
+			tabWidth = 4;
+		};
+		FFBBF5B31FA99179004C8EE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFBBF5B21FA99179004C8EE6 /* dewWatch.app */,
+				FFBBF5C41FA99179004C8EE6 /* dewWatch WatchKit App.app */,
+				FFBBF5D31FA99179004C8EE6 /* dewWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFBBF5B41FA99179004C8EE6 /* dewWatch */ = {
+			isa = PBXGroup;
+			children = (
+				3983C71C1FE35945007AD4B9 /* dewWatch.entitlements */,
+				FFBBF5B51FA99179004C8EE6 /* AppDelegate.swift */,
+				FFBBF5B71FA99179004C8EE6 /* ViewController.swift */,
+				FFBBF5B91FA99179004C8EE6 /* Main.storyboard */,
+				FFBBF5BE1FA99179004C8EE6 /* LaunchScreen.storyboard */,
+				FFBBF5C11FA99179004C8EE6 /* Info.plist */,
+				FFEE3B0E1FE0FD2400E9F9CF /* dew.aiff */,
+				FFEE3B101FE0FE9200E9F9CF /* dew.caf */,
+			);
+			path = dewWatch;
+			sourceTree = "<group>";
+		};
+		FFBBF5C81FA99179004C8EE6 /* dewWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				FFBBF5C91FA99179004C8EE6 /* Interface.storyboard */,
+				FFBBF5CC1FA99179004C8EE6 /* Assets.xcassets */,
+				FFBBF5CE1FA99179004C8EE6 /* Info.plist */,
+			);
+			path = "dewWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		FFBBF5D71FA99179004C8EE6 /* dewWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FFBBF5DA1FA99179004C8EE6 /* ExtensionDelegate.swift */,
+				FFEE3B071FE0E2A700E9F9CF /* TestInterfaceController.swift */,
+				FFBBF5D81FA99179004C8EE6 /* InterfaceController.swift */,
+				FF8F2D3E1FABD275003037D6 /* CheckinInterfaceController.swift */,
+				FF8F2D401FABD28C003037D6 /* ComfirmationInterfaceController.swift */,
+				FF8F2D3C1FAB9CFF003037D6 /* TableRowController.swift */,
+				FFD3A5771FBCF94600A3D0D4 /* DriveNotificationController.swift */,
+				FFBBF5DC1FA99179004C8EE6 /* NotificationController.swift */,
+				FF705F581FAC0BB100EA149E /* ConfirmationLabelClass.swift */,
+				FF46296E1FDFA9C400C2EA6A /* YesNoNotificationController.swift */,
+				FF51E1001FCA57B000A2F7B2 /* dew.mp3 */,
+				FFD41F0E1FD0BD0100B7B380 /* dew.aiff */,
+				FFEE3B111FE0FE9900E9F9CF /* dew.caf */,
+				FFD41F0D1FD0BD0100B7B380 /* dew.wav */,
+				FFBBF5DE1FA99179004C8EE6 /* Assets.xcassets */,
+				FFBBF5E01FA99179004C8EE6 /* Info.plist */,
+				FFBBF5E11FA99179004C8EE6 /* PushNotificationPayload.apns */,
+				FFD3A5711FBCF33900A3D0D4 /* YesNotification.apns */,
+				FFD3A5751FBCF3A500A3D0D4 /* AchivementNotification.apns */,
+				FFD3A5761FBCF40900A3D0D4 /* DriveNotification.apns */,
+			);
+			path = "dewWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		FFEE3B091FE0EEE200E9F9CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFEE3B0A1FE0EEE200E9F9CF /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFBBF5B11FA99179004C8EE6 /* dewWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBBF5EC1FA99179004C8EE6 /* Build configuration list for PBXNativeTarget "dewWatch" */;
+			buildPhases = (
+				FFBBF5AE1FA99179004C8EE6 /* Sources */,
+				FFBBF5AF1FA99179004C8EE6 /* Frameworks */,
+				FFBBF5B01FA99179004C8EE6 /* Resources */,
+				FFBBF5EB1FA99179004C8EE6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBBF5C71FA99179004C8EE6 /* PBXTargetDependency */,
+			);
+			name = dewWatch;
+			productName = dewWatch;
+			productReference = FFBBF5B21FA99179004C8EE6 /* dewWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFBBF5C31FA99179004C8EE6 /* dewWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBBF5E81FA99179004C8EE6 /* Build configuration list for PBXNativeTarget "dewWatch WatchKit App" */;
+			buildPhases = (
+				FFBBF5C21FA99179004C8EE6 /* Resources */,
+				FFBBF5E71FA99179004C8EE6 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFBBF5D61FA99179004C8EE6 /* PBXTargetDependency */,
+			);
+			name = "dewWatch WatchKit App";
+			productName = "dewWatch WatchKit App";
+			productReference = FFBBF5C41FA99179004C8EE6 /* dewWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		FFBBF5D21FA99179004C8EE6 /* dewWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFBBF5E41FA99179004C8EE6 /* Build configuration list for PBXNativeTarget "dewWatch WatchKit Extension" */;
+			buildPhases = (
+				FFBBF5CF1FA99179004C8EE6 /* Sources */,
+				FFBBF5D01FA99179004C8EE6 /* Frameworks */,
+				FFBBF5D11FA99179004C8EE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dewWatch WatchKit Extension";
+			productName = "dewWatch WatchKit Extension";
+			productReference = FFBBF5D31FA99179004C8EE6 /* dewWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFBBF5AA1FA99179004C8EE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Alex Brylov";
+				TargetAttributes = {
+					FFBBF5B11FA99179004C8EE6 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					FFBBF5C31FA99179004C8EE6 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					FFBBF5D21FA99179004C8EE6 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FFBBF5AD1FA99179004C8EE6 /* Build configuration list for PBXProject "dew." */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFBBF5A91FA99179004C8EE6;
+			productRefGroup = FFBBF5B31FA99179004C8EE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFBBF5B11FA99179004C8EE6 /* dewWatch */,
+				FFBBF5C31FA99179004C8EE6 /* dewWatch WatchKit App */,
+				FFBBF5D21FA99179004C8EE6 /* dewWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFBBF5B01FA99179004C8EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBBF5C01FA99179004C8EE6 /* LaunchScreen.storyboard in Resources */,
+				FFBBF5BB1FA99179004C8EE6 /* Main.storyboard in Resources */,
+				FFEE3B0F1FE0FD2400E9F9CF /* dew.aiff in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBBF5C21FA99179004C8EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBBF5CD1FA99179004C8EE6 /* Assets.xcassets in Resources */,
+				FFBBF5CB1FA99179004C8EE6 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBBF5D11FA99179004C8EE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF51E1011FCA57B000A2F7B2 /* dew.mp3 in Resources */,
+				FF8F2D421FABD4F9003037D6 /* Assets.xcassets in Resources */,
+				FFD41F101FD0BD0100B7B380 /* dew.aiff in Resources */,
+				FFBBF5DF1FA99179004C8EE6 /* Assets.xcassets in Resources */,
+				FFD41F0F1FD0BD0100B7B380 /* dew.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFBBF5AE1FA99179004C8EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBBF5B81FA99179004C8EE6 /* ViewController.swift in Sources */,
+				FFBBF5B61FA99179004C8EE6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBBF5CF1FA99179004C8EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBBF5DD1FA99179004C8EE6 /* NotificationController.swift in Sources */,
+				FF8F2D411FABD28C003037D6 /* ComfirmationInterfaceController.swift in Sources */,
+				FFBBF5DB1FA99179004C8EE6 /* ExtensionDelegate.swift in Sources */,
+				FFEE3B081FE0E2A700E9F9CF /* TestInterfaceController.swift in Sources */,
+				FFD3A5781FBCF94600A3D0D4 /* DriveNotificationController.swift in Sources */,
+				FFBBF5D91FA99179004C8EE6 /* InterfaceController.swift in Sources */,
+				FF8F2D3F1FABD275003037D6 /* CheckinInterfaceController.swift in Sources */,
+				FF705F591FAC0BB100EA149E /* ConfirmationLabelClass.swift in Sources */,
+				FF8F2D3D1FAB9CFF003037D6 /* TableRowController.swift in Sources */,
+				FF46296F1FDFA9C400C2EA6A /* YesNoNotificationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFBBF5C71FA99179004C8EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBBF5C31FA99179004C8EE6 /* dewWatch WatchKit App */;
+			targetProxy = FFBBF5C61FA99179004C8EE6 /* PBXContainerItemProxy */;
+		};
+		FFBBF5D61FA99179004C8EE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFBBF5D21FA99179004C8EE6 /* dewWatch WatchKit Extension */;
+			targetProxy = FFBBF5D51FA99179004C8EE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FFBBF5B91FA99179004C8EE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBBF5BA1FA99179004C8EE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFBBF5BE1FA99179004C8EE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBBF5BF1FA99179004C8EE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FFBBF5C91FA99179004C8EE6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFBBF5CA1FA99179004C8EE6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFBBF5E21FA99179004C8EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFBBF5E31FA99179004C8EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFBBF5E51FA99179004C8EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36EBG4U3WT;
+				INFOPLIST_FILE = "dewWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexbrylov.dewWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		FFBBF5E61FA99179004C8EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36EBG4U3WT;
+				INFOPLIST_FILE = "dewWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexbrylov.dewWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		FFBBF5E91FA99179004C8EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36EBG4U3WT;
+				IBSC_MODULE = dewWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "dewWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = alexbrylov.dewWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		FFBBF5EA1FA99179004C8EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36EBG4U3WT;
+				IBSC_MODULE = dewWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "dewWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = alexbrylov.dewWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		FFBBF5ED1FA99179004C8EE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = dewWatch/dewWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36EBG4U3WT;
+				INFOPLIST_FILE = dewWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexbrylov.dewWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFBBF5EE1FA99179004C8EE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = dewWatch/dewWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 36EBG4U3WT;
+				INFOPLIST_FILE = dewWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexbrylov.dewWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFBBF5AD1FA99179004C8EE6 /* Build configuration list for PBXProject "dew." */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBBF5E21FA99179004C8EE6 /* Debug */,
+				FFBBF5E31FA99179004C8EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBBF5E41FA99179004C8EE6 /* Build configuration list for PBXNativeTarget "dewWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBBF5E51FA99179004C8EE6 /* Debug */,
+				FFBBF5E61FA99179004C8EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBBF5E81FA99179004C8EE6 /* Build configuration list for PBXNativeTarget "dewWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBBF5E91FA99179004C8EE6 /* Debug */,
+				FFBBF5EA1FA99179004C8EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFBBF5EC1FA99179004C8EE6 /* Build configuration list for PBXNativeTarget "dewWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFBBF5ED1FA99179004C8EE6 /* Debug */,
+				FFBBF5EE1FA99179004C8EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFBBF5AA1FA99179004C8EE6 /* Project object */;
+}
